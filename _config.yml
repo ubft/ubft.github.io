@@ -1,0 +1,11 @@
+# Site settings
+title: UBFT
+email: 
+description: "UBFT's Site"
+baseurl: ""
+url: "http://ubft.github.io/"
+github_username:  ubft
+
+# Build settings
+markdown: kramdown
+permalink: pretty
