@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "LogBack sl4j 通过MDC实现日志记录区分用户Session[以Spring mvc为例]"
+title:  "LogBack-Sl4j-MDC区分日志Request[以Spring mvc为例]"
 date:   2014-08-19 12:37:55
 categories: Java
 ---
