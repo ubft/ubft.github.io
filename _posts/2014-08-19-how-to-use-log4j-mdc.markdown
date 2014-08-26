@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "LogBack-Sl4j-MDC区分日志Request[以Spring mvc为例]"
+title:  "LogBack-Sl4j-MDC区分不同请求日志[以Spring mvc为例]"
 date:   2014-08-19 12:37:55
 categories: Java
 ---
