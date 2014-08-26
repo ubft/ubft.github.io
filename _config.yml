@@ -17,7 +17,6 @@ defaults:
 description: Stylish Jekyll Theme
 author:
   name: ubft
-  email: dbyll@ismaildemirbilek.com
   github: ubft
 
 rss_path: feed.xml
