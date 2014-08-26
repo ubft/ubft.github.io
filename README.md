@@ -1,34 +1,19 @@
-dbyll
-=====
-
-Open source stylish, minimalistic theme for jekyll.  
-Demo: http://dbtek.github.io/dbyll/
-
-## New
-Dbyll for Ghost is now available. Get it [here](https://github.com/dbtek/dbyll-ghost) now.
-
-### Features
-- Responsive layout.
-- Supports tags and categories.
-- Social profile and bio of author.
-- Bootstrap based.
-- Glyphicon and Font-Awesome Icons.
-- Pagination.
-- Syntax highlighting with pygments.
-- Disqus comments.
 
 
-### Download
-* [Download dbyll](https://github.com/dbtek/dbyll/archive/master.zip)
+``` java
+package com.baidu.ubft;
 
-### Screenshots
+/**
+ * Don't Panic: Java, HTML, CSS, JS and other Techonolgy Included
+ */
+public UBFT {
 
-![dbyll-screenshot](	assets/media/dbyll-ss.png)
+  public static void main(String[] args) {
+    
+    System.out.println("百度前端技术部官方统一博客");
+    System.out.println("欢迎吐槽，欢迎投稿");
+  }
+}
 
-### License
-- [MIT](http://opensource.org/licenses/MIT)
 
-
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/dbtek/dbyll/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
+```
