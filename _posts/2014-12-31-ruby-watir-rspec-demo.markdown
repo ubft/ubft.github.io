@@ -131,6 +131,10 @@ rspec starter.rb
 
 执行结果
 就会自动的打开浏览器，自动搜索Watir，并在终端显示Case是否成功
+
+![Alt text](http://ww2.sinaimg.cn/large/005yyi5Jjw1ensxz4lmjug311a0izdtf.gif)
+
+
 ![Alt text](https://camo.githubusercontent.com/443f4ea026fd072f26143b7764b87cd7b8b19a2f/687474703a2f2f7777322e73696e61696d672e636e2f6c617267652f303035797969354a6a7731656e7370336c363471386a333068703039787461612e6a7067)
 
 
