@@ -1,48 +1,51 @@
 ---
 layout: post
-title:  Ruby-Rspec-Watir ²âÊÔ»·¾³´î½¨
+title:  Ruby-Rspec-Watir æµ‹è¯•ç¯å¢ƒæ­å»º
 date:   2014-12-31 17:00:00
 categories: Ruby
 ---
 
-###1. ÏÂÔØruby 1.9.1
+åˆ©ç”¨Watirå¿«æ·è¿›è¡Œæµè§ˆå™¨æ“ä½œæµ‹è¯•ï¼Œæ›¿ä»£selenium
+
+###1. ä¸‹è½½ruby 1.9.3
 
 http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-1.9.3-p551.exe?direct
 
 
-###2. °²×°²¢ÅäÖÃ»·¾³±äÁ¿
-PATH=Ô­ÓĞÄÚÈİ;%RUBY_HOME%\bin
+###2. å®‰è£…å¹¶é…ç½®ç¯å¢ƒå˜é‡
+PATH=åŸæœ‰å†…å®¹;%RUBY_HOME%\bin
 
 ```
 C:\Users\work>ruby -v
 ruby 1.9.1p0 (2009-01-30 revision 21907) [i386-mswin32]
 ```
 
-###3. °²×°rspec,watir
+###3. å®‰è£…rspec,watir
 
 ```
 gem install rspec
 gem install watir
 ```
 
-ÈôÓöµ½ÎÊÌâ
+è‹¥é‡åˆ°é—®é¢˜
 http://www.docin.com/p-672759046.html
 
-¿ÉÄÜWatir°æ±¾²»¶Ô
+å¯èƒ½Watirç‰ˆæœ¬ä¸å¯¹
+
 ```
 gem uninstall watir -v 5.0.0
 gem install watir -v 3.0.0
 gem uninstall commonwatir -v 4.0.0
-
 ```
 
-###4. ÔËĞĞdemo
-ÏÂÔØdemo
+###4. è¿è¡Œdemo
+ä¸‹è½½demo
 https://github.com/nabilzhang/watir_baidu_demo
 
-```
-#demo ºËĞÄ´úÂë
-##Ò³Ãæbase
+
+{% highlight ruby %}
+#demo æ ¸å¿ƒä»£ç 
+##é¡µé¢base
 class Base_Page
 	def initialize
 		b = Watir::IE.new
@@ -64,8 +67,8 @@ class Base_Page
 	end
 end
 
-#--------------------------------------------------------
-##Ò³Ãæ²Ù×÷
+#----------------------------------
+##é¡µé¢æ“ä½œ
 class Index_Page < Base_Page
 	
 	def initialize ()
@@ -109,7 +112,7 @@ class Index_Page < Base_Page
 end
 
 #-----------------------------------------------------
-##²âÊÔÓÃÀı
+##æµ‹è¯•ç”¨ä¾‹
 describe "www.baidu.com" do
   it "should search for watir" do
 	index_page = Index_Page.new
@@ -119,18 +122,19 @@ describe "www.baidu.com" do
     index_page.close
   end
 end
-```
+{% endhighlight %}
 
-½âÑ¹Ö´ĞĞ
+è§£å‹æ‰§è¡Œ
 ```
 rspec starter.rb
 ```
 
-Ö´ĞĞ½á¹û
+æ‰§è¡Œç»“æœ
+å°±ä¼šè‡ªåŠ¨çš„æ‰“å¼€æµè§ˆå™¨ï¼Œè‡ªåŠ¨æœç´¢Watirï¼Œå¹¶åœ¨ç»ˆç«¯æ˜¾ç¤ºCaseæ˜¯å¦æˆåŠŸ
 ![Alt text](https://camo.githubusercontent.com/443f4ea026fd072f26143b7764b87cd7b8b19a2f/687474703a2f2f7777322e73696e61696d672e636e2f6c617267652f303035797969354a6a7731656e7370336c363471386a333068703039787461612e6a7067)
 
 
-###¸½£º²Î¿¼Êé¼®
+###é™„ï¼šå‚è€ƒä¹¦ç±
 
 - Cucumber & Cheese by Jeff Morgan (Minimum and suggested price: $14.99)
 - Watirways by Justin Ko (Minimum price: $0.00, Suggested price: $4.99)
