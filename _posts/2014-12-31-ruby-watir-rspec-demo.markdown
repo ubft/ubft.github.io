@@ -5,7 +5,7 @@ date:   2014-12-31 17:00:00
 categories: Ruby
 ---
 
-利用Watir快捷进行浏览器操作测试，替代selenium
+利用Watir快捷进行浏览器操作测试，替代selenium。
 
 ###1. 下载ruby 1.9.3
 
@@ -17,7 +17,7 @@ PATH=原有内容;%RUBY_HOME%\bin
 
 ```
 C:\Users\work>ruby -v
-ruby 1.9.1p0 (2009-01-30 revision 21907) [i386-mswin32]
+ruby 1.9.3p551 (2014-11-13) [i386-mingw32]
 ```
 
 ###3. 安装rspec,watir
